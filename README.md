@@ -51,7 +51,10 @@ docker run -d --name gitlab-runner --restart always \
 ```
 
 
-![Название скриншота 1](ссылка на скриншот 1)`
+
+![Регистрация runner](https://raw.githubusercontent.com/ryltsevavikyla-coder/ryltsevaVika_GIT/main/Screenshot%202026-03-31%20183047.png)
+
+![Список раннеров](https://github.com/ryltsevavikyla-coder/ryltsevaVika_GIT/blob/main/Screenshot%202026-03-31%20185243.png)
 
 
 ---
