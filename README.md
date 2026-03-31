@@ -26,19 +26,28 @@
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+1. Развернула GitLab локально с помощью Vagrant (VAGRANT_EXPERIMENTAL="disks" vagrant up).
+2. GitLab стал доступен по адресу http://gitlab.localdomain (и http://192.168.56.10).
+3. Получила начальный пароль root и зашла в GitLab под пользователем root, сменила пароль.
+4. Создала новый пустой проект ryltsevaVika_GIT.
+5. Зарегистрировала gitlab-runner в режиме Docker с помощью команды docker run ... register.
+6. Запустила runner в фоновом режиме.
 
 ```
 Поле для вставки кода...
-....
-....
-....
-....
+# Регистрация runner
+docker run -ti --rm --name gitlab-runner \
+  --network host \
+  -v /srv/gitlab-runner/config:/etc/gitlab-runner \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  gitlab/gitlab-runner:latest register
+
+# Запуск runner
+docker run -d --name gitlab-runner --restart always \
+  --network host \
+  -v /srv/gitlab-runner/config:/etc/gitlab-runner \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  gitlab/gitlab-runner:latest
 ```
 
 `При необходимости прикрепитe сюда скриншоты
