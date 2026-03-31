@@ -50,7 +50,7 @@ docker run -d --name gitlab-runner --restart always \
   gitlab/gitlab-runner:latest
 ```
 
-`При необходимости прикрепитe сюда скриншоты
+
 ![Название скриншота 1](ссылка на скриншот 1)`
 
 
