@@ -64,9 +64,9 @@ docker run -d --name gitlab-runner --restart always \
 2. Создала файл `.gitlab-ci.yml`.
 
 **Содержимое .gitlab-ci.yml:**
-
 ```
-Поле для вставки кода...
+
+
 stages:
   - test
   - build
@@ -84,11 +84,16 @@ build:
     - docker build .
 
 ```
+# Примечание:
+## Пайплайн падает из-за автоматических джобов Auto DevOps (code_quality, container_scanning и др.), которые GitLab запускает несмотря на отключение Auto DevOps в настройках проекта. Runner работает корректно.
+# если занете как решить эту проблему то в отправку на доработку напишите пожалуйста решение этой проблемы!
 
-`При необходимости прикрепитe сюда скриншоты
 
-![зарушила ](https://github.com/ryltsevavikyla-coder/ryltsevaVika_GIT/blob/main/Screenshot%202026-04-01%20184709.png)
+![зарушила ](https://github.com/ryltsevavikyla-coder/ryltsevaVika_GIT/blob/main/Screenshot%202026-04-01%20181014.png)
 ![pipeline](https://github.com/ryltsevavikyla-coder/ryltsevaVika_GIT/blob/main/Screenshot%202026-04-01%20184709.png)
+
+
+
 
 
 
