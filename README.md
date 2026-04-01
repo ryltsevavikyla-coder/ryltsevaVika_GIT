@@ -86,7 +86,9 @@ build:
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+![Название скриншота 2](https://github.com/ryltsevavikyla-coder/ryltsevaVika_GIT/blob/main/Screenshot%202026-04-01%20193550.png)
+
+
 
 
 ---
