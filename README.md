@@ -88,7 +88,7 @@ build:
 
 
 ![зарушила ](https://github.com/ryltsevavikyla-coder/ryltsevaVika_GIT/blob/main/Screenshot%202026-04-01%20181014.png)
-![pipeline](https://github.com/ryltsevavikyla-coder/ryltsevaVika_GIT/blob/main/Screenshot%202026-04-01%20184709.png)
+![pipeline](https://github.com/ryltsevavikyla-coder/ryltsevaVika_GIT/blob/main/Screenshot%202026-04-07%20193223.png)
 
 
 
